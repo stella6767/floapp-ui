@@ -42,6 +42,35 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/test_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/flo_logo" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/post2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/post2"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="85dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
