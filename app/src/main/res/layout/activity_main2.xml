@@ -35,7 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:hint="아이디(이메일)"
+            android:hint="지옥에서온 신율이 입니다."
             app:layout_constraintEnd_toStartOf="@+id/guideline3"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toTopOf="parent" />
