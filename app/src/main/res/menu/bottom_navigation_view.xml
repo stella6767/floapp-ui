@@ -4,6 +4,7 @@
     <item
         android:id="@+id/bottom_home"
         android:icon="@drawable/ic_baseline_home_24"
+        android:iconTint="@android:color/white"
         android:title="홈" />
 
     <item
