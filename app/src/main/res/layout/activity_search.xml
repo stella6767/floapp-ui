@@ -105,14 +105,14 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline22"
             app:layout_constraintStart_toStartOf="@+id/guideline21">
 
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
-            <include layout="@layout/soaring_search_item"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
+            <include layout="@layout/item_soaring_search"/>
 
 
         </LinearLayout>

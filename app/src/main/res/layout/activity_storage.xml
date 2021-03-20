@@ -88,13 +88,13 @@
         </LinearLayout>
 
         <!--이부분은 리사이클러뷰가 들어와야합니다.-->
-        <include layout="@layout/storage_item" />
+        <include layout="@layout/item_storage" />
 
-        <include layout="@layout/storage_item" />
+        <include layout="@layout/item_storage" />
 
-        <include layout="@layout/storage_item" />
+        <include layout="@layout/item_storage" />
 
-        <include layout="@layout/storage_item" />
+        <include layout="@layout/item_storage" />
 
 
     </LinearLayout>

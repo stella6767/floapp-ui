@@ -181,11 +181,11 @@
         android:background="@color/black"
         android:orientation="vertical">
 
-        <include layout="@layout/storage_list_item"/>
-        <include layout="@layout/storage_list_item"/>
-        <include layout="@layout/storage_list_item"/>
-        <include layout="@layout/storage_list_item"/>
-        <include layout="@layout/storage_list_item"/>
+        <include layout="@layout/item_storage_list"/>
+        <include layout="@layout/item_storage_list"/>
+        <include layout="@layout/item_storage_list"/>
+        <include layout="@layout/item_storage_list"/>
+        <include layout="@layout/item_storage_list"/>
 
 
     </LinearLayout>

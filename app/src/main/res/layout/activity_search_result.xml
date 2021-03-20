@@ -63,13 +63,13 @@
         android:background="@color/black"
         android:orientation="vertical">
 
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
-        <include layout="@layout/search_result_item"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
+        <include layout="@layout/item_search_result"/>
 
 
     </LinearLayout>
