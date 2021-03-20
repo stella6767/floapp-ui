@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -28,9 +28,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="보관함"
+            android:textColor="@color/white"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline4"
             app:layout_constraintTop_toTopOf="parent" />
@@ -68,44 +68,45 @@
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_marginLeft="20dp"
                 android:layout_width="100dp"
                 android:layout_height="57dp"
+                android:layout_marginLeft="20dp"
                 android:src="@drawable/ic_add_circle"
-                app:tint="@color/white"/>
+                app:tint="@color/white" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:layout_marginLeft="10dp"
                 android:layout_width="250dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:gravity="center_vertical"
                 android:text="새로운 리스트 만들기"
+                android:textColor="@color/white"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="@color/white"/>
-
-
-
+                android:textStyle="bold" />
 
 
         </LinearLayout>
 
-            <include layout="@layout/storage_item"/>
-            <include layout="@layout/storage_item"/>
-            <include layout="@layout/storage_item"/>
-            <include layout="@layout/storage_item"/>
+        <!--이부분은 리사이클러뷰가 들어와야합니다.-->
+        <include layout="@layout/storage_item" />
+
+        <include layout="@layout/storage_item" />
+
+        <include layout="@layout/storage_item" />
+
+        <include layout="@layout/storage_item" />
 
 
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
-        app:itemIconTint="@color/white"
-        app:itemTextColor="@color/white"
-        app:menu="@menu/bottom_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@android:color/black" />
+        android:background="@android:color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_navigation_view" />
 
 </LinearLayout>
