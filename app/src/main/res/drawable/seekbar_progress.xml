@@ -21,7 +21,7 @@
     <item android:id="@android:id/progress" >
         <clip>
             <shape android:shape="line">
-                <stroke android:width="2dp" android:color="#4748FF" />
+                <stroke android:width="2dp" android:color="#3F3FFF" />
             </shape>
         </clip>
     </item>

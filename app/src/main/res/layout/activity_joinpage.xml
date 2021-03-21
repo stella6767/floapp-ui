@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top"
-    android:orientation="vertical"
-    tools:context=".MainActivity3">
+    android:orientation="vertical">
 
 
     <include layout="@layout/toolbar_join" />
@@ -22,6 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:hint="아이디(이메일)"
+            android:backgroundTint="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:hint="비밀번호"
+            android:backgroundTint="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintEnd_toEndOf="@+id/textInputEditText2"
@@ -46,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:hint="생년월일"
+            android:backgroundTint="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintEnd_toEndOf="@+id/textInputEditText3"
@@ -59,6 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:hint="비밀번호 확인"
+            android:backgroundTint="@android:color/darker_gray"
             android:textColorHint="@android:color/darker_gray"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintEnd_toEndOf="@+id/textInputEditText"
@@ -91,9 +94,10 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_margin="20dp"
             android:text="가입완료"
             android:textSize="20sp"
-            app:backgroundTint="@color/black"
+            app:backgroundTint="#3F3FFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
