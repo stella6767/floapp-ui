@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:background="@color/black">
+        android:background="#090D12">
 
         <ImageView
             android:id="@+id/imageView6"
@@ -23,7 +23,7 @@
             app:tint="@color/white" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline4"
+            android:id="@+id/guideline87"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -42,7 +42,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline87"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_more"
             app:tint="@color/white" />
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="7"
-        android:background="@color/black">
+        android:background="#090D12">
 
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/roundedImageView"
@@ -138,7 +138,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.5"
-        android:background="@android:color/black">
+        android:background="#090D12">
 
 
         <androidx.appcompat.widget.AppCompatSeekBar

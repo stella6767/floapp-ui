@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FLOUI">
 
-        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".MainActivity2" />
-        <activity android:name=".PlayListMainActivity">
+        <activity android:name=".MainActivity3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -4,11 +4,11 @@
     <!--SeekBar 배경1 : 기본적으로 유지되는 seekbar-->
     <item android:id="@android:id/background">
         <shape android:shape="line">    <!--선 : 길이6dp -->
-            <stroke android:width="2dp" android:color="#f0767676" />
+            <stroke android:width="3dp"  android:color="#f0767676" />
         </shape>
     </item>
 
-    <!-- SeekBar 배경2입니다.-->
+    <!-- SeekBar 배경2입니다. f08e8e8e-->
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape android:shape="line">
